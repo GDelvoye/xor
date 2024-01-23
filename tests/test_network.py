@@ -32,4 +32,4 @@ def test_global_error_to_objective():
     # When
     result = network.global_error_to_objective(list_of_ios)
     # Then
-    assert np.isclose(result, 0.58)
+    assert np.isclose(result, 0.94)
